@@ -1,0 +1,16 @@
+.ls-league__info,
+.ls-sponsor__info {
+    width: 250px; 
+    margin: 0 auto; 
+}
+
+.ls-landing__enter button {
+    background-color: #233142;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 35px; 
+    width: 100px; 
+    height: 45px; 
+    color: #fff; 
+    font-size: 20px; 
+    border: none;   
+}
