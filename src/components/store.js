@@ -61,7 +61,7 @@ export default {
             league_name: 'Milwaukee Brewers',
             website: 'https://www.mlb.com/brewers',
             location: 'Milwaukee, Wisconsin',
-            price: ''
+            price: '$2,250'
         },
         {
             id: 10, 

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../styles/LeagueItem.css';
 
 
 class LeagueItem extends Component {
@@ -10,10 +11,10 @@ class LeagueItem extends Component {
                     <a href={website} target='blank'>{league_name}</a>
                 </h2>
                 <div className='ls-league__location'>
-                    {location}
+                   Location: {location}
                 </div>
                 <div className='ls-league__price'>
-                    {price}
+                    Price: {price}
                 </div>
             </div>
         )

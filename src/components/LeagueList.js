@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import LeagueItem from '../components/LeagueItem';
 import STORE from '../components/store';
+import '../styles/LeagueList.css';
 
 class LeagueList extends Component {
     render() {
