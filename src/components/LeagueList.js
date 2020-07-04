@@ -7,6 +7,9 @@ class LeagueList extends Component {
     render() {
         return(
             <section className='ls-league-list__container'>
+                <div className='ls-dashboard__title'>
+                    <h1>All Leagues</h1>
+                </div>
                 <ul className='ls-league_list'>
                     {STORE.leagues.map(league => (
                         <li key={league.id}>
