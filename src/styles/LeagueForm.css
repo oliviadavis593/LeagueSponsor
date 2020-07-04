@@ -1,0 +1,44 @@
+.ls-leagueform {
+    width: 300px;
+    height: 600px; 
+    margin: 0 auto; 
+    border: 1px solid #233142;
+    background-color: #233142; 
+    color: #fff; 
+}
+
+fieldset {
+    border: none; 
+}
+
+legend {
+    font-size: 20px; 
+}
+
+legend p {
+    font-size: 20px; 
+}
+
+label {
+    font-size: 22px; 
+}
+
+input {
+    display: flex; 
+    margin: 10px auto; 
+    width: 200px; 
+    height: 20px; 
+}
+
+.ls-form__button {
+    width: 100px; 
+    height: 40px; 
+    font-family: 'Oswald', sans-serif;
+    background-color: #def3fa;
+    border: none; 
+    font-size: 20px; 
+}
+
+@media only screen and (min-width: 720px) {
+
+}

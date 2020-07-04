@@ -17,3 +17,15 @@
     color: #fbc531;
     transition: 0.7s; 
 }
+
+@media only screen and (min-width: 720px) {
+    .ls-logo {
+        width: 400px; 
+        margin: 0 auto; 
+    }
+
+    .ls-league__form,
+    .ls-sponsor {
+        font-size: 32px; 
+    }
+}

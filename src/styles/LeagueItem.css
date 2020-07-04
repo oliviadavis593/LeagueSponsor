@@ -24,3 +24,17 @@
 .ls-league__price {
     color: #fbc531;
 }
+
+@media only screen and (min-width: 720px) {
+    .ls-league__name {
+        font-size: 27px; 
+    }
+
+    .ls-league__location {
+        font-size: 20px; 
+    }
+
+    .ls-league__price {
+        font-size: 17px; 
+    }
+}

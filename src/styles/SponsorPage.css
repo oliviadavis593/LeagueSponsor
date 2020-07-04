@@ -1,0 +1,18 @@
+.ls-sponsor__form {
+    width: 300px;
+    height: 400px; 
+    margin: 0 auto; 
+    border: 1px solid #233142;
+    background-color: #233142; 
+    color: #fff;
+}
+
+.btn {
+    width: 80px; 
+    height: 35px; 
+    margin-top: 30px; 
+    font-family: 'Oswald', sans-serif;
+    background-color: #def3fa;
+    border: none; 
+    font-size: 20px;
+}

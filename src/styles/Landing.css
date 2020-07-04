@@ -14,3 +14,48 @@
     font-size: 20px; 
     border: none;   
 }
+
+@media only screen and (min-width: 400px) {
+    .ls-league__info,
+    .ls-sponsor__info {
+        font-size: 20px; 
+        width: 300px;
+    }
+
+    .ls-landing__enter{
+        margin-bottom: 80px; 
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    .ls-league__info,
+    .ls-sponsor__info { 
+        font-size: 22px; 
+        width: 350px;
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    .ls-landing__title {
+        font-size: 20px; 
+    }
+    .ls-league__info,
+    .ls-sponsor__info { 
+        font-size: 25px; 
+        width: 400px;
+    }
+
+    .ls-landing__enter button {
+        width: 170px; 
+        height: 60px;
+        font-size: 35px; 
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .ls-league__info,
+    .ls-sponsor__info { 
+        font-size: 25px; 
+        width: 500px;
+    }
+}
