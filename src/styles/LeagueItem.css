@@ -1,0 +1,26 @@
+.ls-league {
+    --item-height: 88px;
+    background-color: #233142;
+    padding: 8px 0px 8px 8px; 
+    margin: 0 20px 15px -20px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.4);
+    color: #fff; 
+}
+
+.ls-league__name a {
+    color: #fff; 
+    text-decoration: none; 
+}
+
+.ls-league__name:hover a {
+    color: #fbc531;
+    transition: 0.7s; 
+}
+
+.ls-league__location {
+    margin-bottom: 10px; 
+}
+
+.ls-league__price {
+    color: #fbc531;
+}

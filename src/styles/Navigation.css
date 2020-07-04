@@ -1,0 +1,19 @@
+.nav {
+    font-size: 25px; 
+}
+
+.ls-league__form {
+    margin-right: 40px; 
+}
+
+.ls-league__form,
+.ls-sponsor {
+    text-decoration: none; 
+    color: #233142;
+}
+
+.ls-league__form:hover,
+.ls-sponsor:hover {
+    color: #fbc531;
+    transition: 0.7s; 
+}

@@ -1,0 +1,13 @@
+.ls-league_list {
+    list-style-type: none; 
+    text-align: center; 
+    margin: 30px auto; 
+    width: 250px;   
+}
+
+.ls-dashboard__title {
+    margin-top: 50px;
+    font-size: 25px;  
+}
+
+
