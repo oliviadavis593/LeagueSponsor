@@ -2,6 +2,9 @@
 
 -  [LeagueSponsor]() is a full-stack React application designed for the LeagueSide company tech interview!
 
+# How to use the app 📓
+- In progress...
+
 # Screenshots 📸
 | ![](src/imgs/ls-landing.png) |
 |:---:|
