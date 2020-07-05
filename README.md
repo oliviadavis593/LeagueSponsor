@@ -18,6 +18,7 @@
 |:---:|
 
 | ![](src/imgs/leaguedashboard.png) | ![](src/imgs/leagueform.png) | ![](src/imgs/sponsorpage.png)
+|:---:|:---:|:---:|
 
 # Tech Used 🖥
 **Front-End**
