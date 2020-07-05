@@ -3,21 +3,21 @@
 -  [LeagueSponsor]() is a full-stack React application designed for the LeagueSide company tech interview!
 
 # Screenshots 📸
-| ![](src/img/ls-landing.png) |
+| ![](src/imgs/ls-landing.png) |
 |:---:|
 |Landing|
 
-| ![](src/img/ls-dashboard.png) | ![](src/img/ls-leagueform.png) | ![](src/img/ls-sponsor.png)
+| ![](src/imgs/ls-dashboard.png) | ![](src/imgs/ls-leagueform.png) | ![](src/imgs/ls-sponsor.png)
 |:---:|:---:|:---:|
 |Dashboard|League Form|Sponsor Page|
 
 # Wireframe 🛠
 - I always start with a wireframe first approach before moving into planning the React component layout. This acutally aides in figuring out how my app will be layed out beforehand.
 
-| ![](src/img/leaguelanding.png) |
+| ![](src/imgs/leaguelanding.png) |
 |:---:|
 
-| ![](src/img/leaguedashboard.png) | ![](src/img/leagueform.png) | ![](src/img/sponsorpage.png)
+| ![](src/imgs/leaguedashboard.png) | ![](src/imgs/leagueform.png) | ![](src/imgs/sponsorpage.png)
 
 # Tech Used 🖥
 **Front-End**
