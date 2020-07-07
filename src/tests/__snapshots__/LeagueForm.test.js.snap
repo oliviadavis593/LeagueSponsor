@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LeagueForm Component renders the UI as expected 1`] = `
+<div>
+  <div>
+    <a
+      aria-current={null}
+      href="/dashboard"
+      onClick={[Function]}
+    >
+      <img
+        alt="ls-logo"
+        className="ls-logo"
+        src="leaguelogo.png"
+      />
+    </a>
+  </div>
+  <main>
+    <form
+      className="ls-leagueform"
+      onSubmit={[Function]}
+    >
+      <fieldset>
+        <legend>
+          <h2>
+            League Form
+          </h2>
+          <p>
+            Add a league to our platform so sponsorships can see you!
+          </p>
+        </legend>
+        <label
+          htmlFor="league_name"
+        >
+          League Name:
+        </label>
+        <input
+          id="league_name"
+          name="league_name"
+          onChange={[Function]}
+          required={true}
+          type="text"
+        />
+        <label
+          htmlFor="latitude"
+        >
+          Latitude:
+        </label>
+        <input
+          id="latitude"
+          name="location"
+          onChange={[Function]}
+          required={true}
+          type="text"
+        />
+        <label
+          htmlFor="longitude"
+        >
+          Longitude:
+        </label>
+        <input
+          id="longitude"
+          name="longitude"
+          onChange={[Function]}
+          required={true}
+          type="number"
+        />
+        <label
+          htmlFor="website"
+        >
+          Website:
+        </label>
+        <input
+          id="website"
+          name="website"
+          onChange={[Function]}
+          type="text"
+        />
+        <label
+          htmlFor="price"
+        >
+          Price:
+        </label>
+        <input
+          id="price"
+          name="price"
+          onChange={[Function]}
+          required={true}
+          type="number"
+        />
+      </fieldset>
+      <button
+        className="ls-form__button"
+        type="submit"
+      >
+        Add League
+      </button>
+    </form>
+  </main>
+</div>
+`;

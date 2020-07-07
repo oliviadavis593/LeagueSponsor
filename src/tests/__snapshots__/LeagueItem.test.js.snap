@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LeagueItem Component renders the UI as expected 1`] = `
+<div
+  className="ls-league"
+>
+  <h2
+    className="ls-league__name"
+  >
+    <a
+      target="blank"
+    />
+  </h2>
+  <div
+    className="ls-league__location"
+  >
+    Location: 
+  </div>
+  <div
+    className="ls-league__price"
+  >
+    Price: 
+  </div>
+</div>
+`;

@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation Component renders the UI as expected 1`] = `
+<div
+  className="ls-navigation"
+>
+  <div
+    className="ls-logo"
+  >
+    <a
+      aria-current="page"
+      className="active"
+      href="/"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      <img
+        alt="ls-logo"
+        className="ls-logo"
+        src="leaguelogo.png"
+      />
+    </a>
+  </div>
+  <nav
+    className="nav"
+  >
+    <a
+      aria-current={null}
+      className="ls-league__form"
+      href="/leagueform"
+      onClick={[Function]}
+    >
+      Add League
+    </a>
+    <a
+      aria-current={null}
+      className="ls-sponsor"
+      href="/sponsor"
+      onClick={[Function]}
+    >
+      Sponsor
+    </a>
+  </nav>
+</div>
+`;

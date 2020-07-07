@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SponsorPage Component renders the UI as expected 1`] = `
+<div>
+  <a
+    aria-current={null}
+    href="/dashboard"
+    onClick={[Function]}
+  >
+    <img
+      alt="ls-logo"
+      className="ls-logo"
+      src="leaguelogo.png"
+    />
+  </a>
+  <main>
+    <form
+      className="ls-sponsor__form"
+    >
+      <fieldset>
+        <legend>
+          <h1>
+            Sponsor Search
+          </h1>
+        </legend>
+        <label
+          htmlFor="budget"
+        >
+          Total Budget:
+        </label>
+        <input
+          id="budget"
+          name="budget"
+          type="text"
+        />
+        <label
+          htmlFor="latitude"
+        >
+          Latitude:
+        </label>
+        <input
+          id="latitude"
+          name="latitude"
+          type="number"
+        />
+        <label
+          htmlFor="longitude"
+        >
+          Longitude:
+        </label>
+        <input
+          id="longitude"
+          name="longitude"
+          type="number"
+        />
+        <label
+          htmlFor="radius"
+        >
+          Radius:
+        </label>
+        <select
+          id="radius"
+          name="radius"
+        >
+          <option
+            value="Any"
+          >
+            Any
+          </option>
+          <option
+            value="5"
+          >
+            5mi
+          </option>
+        </select>
+      </fieldset>
+      <div
+        className="sponsor__button"
+      >
+        <button
+          className="btn"
+        >
+          Find
+        </button>
+      </div>
+    </form>
+  </main>
+</div>
+`;
