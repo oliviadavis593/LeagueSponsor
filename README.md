@@ -30,12 +30,11 @@
 - [React](https://reactjs.org/) (Javscript Framework)
 
 **Back-End**
-- [Node](https://nodejs.org/en/)
-- [Express](https://expressjs.com/)
+- [Node](https://nodejs.org/en/) (JavaScript runtime environment)
+- [Express](https://expressjs.com/) (web application framework for Node.js)
 - [PostgreSQL](https://www.postgresql.org/) (Relational Database Management System)
 
 **Testing and Deployment**
-- [Jest](https://jestjs.io/) (Front-End Framework Testing)
 - [Enzyme](https://github.com/enzymejs/enzyme) (Front-End Framework Testing)
 - [Mocha](https://mochajs.org/) (Back-End Framework Testing)
 - [Chai](https://www.chaijs.com/) (Assertion Library For Node)
