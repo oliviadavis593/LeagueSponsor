@@ -6,10 +6,11 @@ import '../styles/LeagueList.css';
 class LeagueList extends Component {
     render() {
         return(
-            <section className='ls-league-list__container'>
+            <div>
                 <div className='ls-dashboard__title'>
                     <h1>All Leagues</h1>
                 </div>
+                <section className='ls-league-list__container'>
                 <ul className='ls-league_list'>
                     {STORE.leagues.map(league => (
                         <li key={league.id}>
@@ -24,6 +25,7 @@ class LeagueList extends Component {
                     ))}
                 </ul>
             </section>
+            </div>
         )
     }
 }

@@ -67,7 +67,7 @@ export default {
             id: 10, 
             league_name: 'Pittsburgh Pirates',
             website: 'https://www.mlb.com/pirates',
-            location: 'https://www.mlb.com/pirates',
+            location: 'Pittsburgh, Pennsylvania',
             price: '$3,000'
         },
         {
