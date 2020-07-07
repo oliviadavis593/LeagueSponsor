@@ -16,3 +16,21 @@
         width: 350px; 
     }
 }
+
+@media only screen and (min-width: 800px) {
+    .ls-league_list {
+        display: grid; 
+        grid-template-columns: 300px 300px;
+        column-gap: 20px; 
+        justify-content: center;  
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .ls-league_list {
+        display: grid; 
+        grid-template-columns: 300px 300px 300px ;
+        column-gap: 20px; 
+        justify-content: center;  
+    }
+}

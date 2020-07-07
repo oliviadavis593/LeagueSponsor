@@ -1,6 +1,6 @@
 .ls-leagueform {
-    width: 300px;
-    height: 600px; 
+    width: 350px;
+    height: 700px; 
     margin: 0 auto; 
     border: 1px solid #233142;
     background-color: #233142; 
@@ -37,5 +37,10 @@ input {
     background-color: #def3fa;
     border: none; 
     font-size: 20px; 
+}
+
+.ls-form__button:hover {
+    color: #fbc531;
+    transition: 0.7s; 
 }
 
