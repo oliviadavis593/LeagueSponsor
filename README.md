@@ -1,6 +1,6 @@
 # LeagueSponsor 🏆
 
--  [LeagueSponsor](https://leaguesponsor.oliviadavis593.vercel.app/) is a full-stack React application designed for the LeagueSide company tech interview! The Back-End repo can be found [here](https://github.com/oliviadavis593/LeagueSponser-API)
+-  [LeagueSponsor](https://leaguesponsor.oliviadavis593.vercel.app/) is a fully responsive full-stack React application designed for the LeagueSide company tech interview! The Back-End repo can be found [here](https://github.com/oliviadavis593/LeagueSponser-API).
 
 # How to use the app 📓
 - In progress...
