@@ -25,21 +25,24 @@ class SponsorPage extends Component {
                             name='budget'
                             />
 
-                            <label htmlFor='location'>Location:</label>
+                            <label htmlFor='latitude'>Latitude:</label>
                             <input 
-                            id='location'
-                            type='text'
-                            name='location'
+                            id='latitude'
+                            type='number'
+                            name='latitude'
+                            />
+
+                            <label htmlFor='longitude'>Longitude:</label>
+                            <input 
+                            id='longitude'
+                            type='number'
+                            name='longitude'
                             />
 
                             <label htmlFor='radius'>Radius:</label>
-                            <select name='radius' id='rating'>
+                            <select name='radius' id='radius'>
                                 <option value='Any'>Any</option>
                                 <option value='5'>5mi</option>
-                                <option value='15'>15mi</option>
-                                <option value='50'>50mi</option>
-                                <option value='100'>100mi</option>
-                                <option value='1000'>1000mi</option>
                             </select>
                         </fieldset>
                         <div className='sponsor__button'>
