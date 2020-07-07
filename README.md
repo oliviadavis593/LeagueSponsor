@@ -6,13 +6,13 @@
 - In progress...
 
 # Screenshots 📸
-| ![](src/imgs/ls-landing.png) |
+| ![](src/imgs/ls-dashboard.png) |
 |:---:|
-|Landing|
+|Dashboard|
 
-| ![](src/imgs/ls-dashboard.png) | ![](src/imgs/ls-leagueform.png) | ![](src/imgs/ls-sponsor.png)
+| ![](src/imgs/ls-landing.png) | ![](src/imgs/ls-leagueform.png) | ![](src/imgs/ls-sponsor.png)
 |:---:|:---:|:---:|
-|Dashboard|League Form|Sponsor Page|
+|Landing|League Form|Sponsor Page|
 
 # Wireframe 🛠
 - I always start with a wireframe first approach before moving into planning the React component layout. This acutally aides in figuring out how my app will be layed out beforehand.
