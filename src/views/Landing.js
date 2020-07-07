@@ -23,7 +23,7 @@ function Landing() {
                     <span>
                         <p>1. Add your league to our platform</p>
                         <p>2. Submit your leagues information</p>
-                        <p>3. WAIT FOR SPONSORSHIPS! 😀</p>
+                        <p>3. WAIT FOR SPONSORSHIPS! <span role='img' aria-label='smiley'>😀</span></p>
                     </span>
                 </div>
                 <div className='ls-sponsor__info'>
@@ -33,7 +33,7 @@ function Landing() {
                     <span>
                         <p>1. Enter your total budget</p>
                         <p>2. Target leagues in a specific location</p>
-                        <p>3. SPONSOR AS MANY LEAGUES AS POSSIBLE! 😀</p>
+                        <p>3. SPONSOR AS MANY LEAGUES AS POSSIBLE!  <span role='img' aria-label='smiley'>😀</span></p>
                     </span>
                 </div>
                 <div className='ls-landing__enter'>
