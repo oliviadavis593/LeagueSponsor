@@ -34,6 +34,10 @@
 - [Express](https://expressjs.com/)
 - [PostgreSQL](https://www.postgresql.org/) (Relational Database Management System)
 
-**Deployment**
+**Testing and Deployment**
+- [Jest](https://jestjs.io/) (Front-End Framework Testing)
+- [Enzyme](https://github.com/enzymejs/enzyme) (Front-End Framework Testing)
+- [Mocha](https://mochajs.org/) (Back-End Framework Testing)
+- [Chai](https://www.chaijs.com/) (Assertion Library For Node)
 - [Vercel](https://vercel.com/) (cloud platform for static sites and Serverless Functions)
 - [Heroku](https://www.heroku.com/platform) (Cloud PaaS)
