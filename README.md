@@ -9,9 +9,9 @@ Two options are possible in the application: Create a league or find leagues to 
 - All you have to do is put in the criteria it asks of you. 
 
 ### Finding a league to sponsor 
-- For the data that is in the database I would suggest looking for this 
+- For the data that is in the database I would suggest putting your search like so: 
 ```
-1. Enter a total budget 
+1. Enter a total budget: this can range from 400-10000 dollars
 2. Enter latitude: in progress...
 3. Enter longitude: in progress...
 4. Enter a radius: Only option for now is 5mi
