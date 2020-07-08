@@ -3,7 +3,20 @@
 -  [LeagueSponsor](https://leaguesponsor.oliviadavis593.vercel.app/) is a fully responsive full-stack React application designed for the LeagueSide company tech interview! The backend repo can be found [here](https://github.com/oliviadavis593/LeagueSponser-API).
 
 ## How to use the app 📓
-- In progress...
+Two options are possible in the application: Create a league or find leagues to sponsor. 
+
+### Creating a league 
+- All you have to do is put in the criteria it asks of you. 
+
+### Finding a league to sponsor 
+- For the data that is in the database I would suggest looking for this 
+```
+1. Enter a total budget 
+2. Enter latitude: in progress...
+3. Enter longitude: in progress...
+4. Enter a radius: Only option for now is 5mi
+
+```
 
 ## Screenshots 📸
 | ![](src/imgs/ls-dashboard.png) |
