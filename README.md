@@ -1,11 +1,11 @@
 # LeagueSponsor 🏆
 
--  [LeagueSponsor](https://leaguesponsor.oliviadavis593.vercel.app/) is a fully responsive full-stack React application designed for the LeagueSide company tech interview! The Back-End repo can be found [here](https://github.com/oliviadavis593/LeagueSponser-API).
+-  [LeagueSponsor](https://leaguesponsor.oliviadavis593.vercel.app/) is a fully responsive full-stack React application designed for the LeagueSide company tech interview! The backend repo can be found [here](https://github.com/oliviadavis593/LeagueSponser-API).
 
-# How to use the app 📓
+## How to use the app 📓
 - In progress...
 
-# Screenshots 📸
+## Screenshots 📸
 | ![](src/imgs/ls-dashboard.png) |
 |:---:|
 |Dashboard|
@@ -14,7 +14,7 @@
 |:---:|:---:|:---:|
 |Landing|League Form|Sponsor Page|
 
-# Wireframe 🛠
+## Wireframe 🛠
 - I always start with a wireframe first approach before moving into planning the React component layout. This acutally aides in figuring out how my app will be layed out beforehand.
 
 | ![](src/imgs/leaguelanding.png) |
@@ -23,7 +23,7 @@
 | ![](src/imgs/leaguedashboard.png) | ![](src/imgs/leagueform.png) | ![](src/imgs/sponsorpage.png)
 |:---:|:---:|:---:|
 
-# Tech Used 🖥
+## Tech Used 🖥
 **Front-End**
 - HTML5
 - CSS3 
