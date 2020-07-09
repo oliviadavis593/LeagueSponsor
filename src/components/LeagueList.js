@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
 import LeagueItem from '../components/LeagueItem';
-import STORE from '../components/store';
+import LeagueContext from '../LeagueContext';
 import '../styles/LeagueList.css';
 
 class LeagueList extends Component {
+
+    static contextType = LeagueContext; 
+
     render() {
+        const leagues = this.context.leagues; 
         return(
             <div>
                 <div className='ls-dashboard__title'>
@@ -12,7 +16,7 @@ class LeagueList extends Component {
                 </div>
                 <section className='ls-league-list__container'>
                 <ul className='ls-league_list'>
-                    {STORE.leagues.map(league => (
+                    {leagues.map(league => (
                         <li key={league.id}>
                             <LeagueItem 
                             id={league.id}
@@ -20,6 +24,8 @@ class LeagueList extends Component {
                             website={league.website}
                             location={league.location}
                             price={league.price}
+                            latitude={league.latitude}
+                            longitude={league.longitude}
                             />
                         </li>
                     ))}

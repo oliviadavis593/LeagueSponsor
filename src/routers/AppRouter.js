@@ -5,6 +5,7 @@ import Landing from '../views/Landing';
 import Dashboard from '../views/Dashboard';
 import LeagueForm from '../components/LeagueForm';
 import SponsorPage from '../components/SponsorPage';
+import config from '../config';
 
 class AppRouter extends Component {
     state = {
@@ -16,7 +17,7 @@ class AppRouter extends Component {
 
     //GET
     componentDidMount() {
-        fetch('www.blah.com', {
+        fetch(`${config.API_ENDPOINT}/api/leagues`, {
             method: 'GET',
             headers: {
                 'content-type': 'application/json'
@@ -36,9 +37,9 @@ class AppRouter extends Component {
         })
     }
 
-    handleAddLeague = league_id => {
+    handleAddLeague = league => {
         this.setState({ 
-            leagues: this.state.leagues.filter(league => league.id !== league_id)
+            leagues: [...this.state.leagues, league],
         })
     }
     render() {

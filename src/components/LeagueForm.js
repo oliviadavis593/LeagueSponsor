@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 import LeagueContext from '../LeagueContext';
+import config from '../config';
 import Logo from '../imgs/leaguelogo.png';
 import '../styles/LeagueForm.css'
 
@@ -17,15 +18,18 @@ class LeagueForm extends Component {
     handleAddLeague(event) {
         event.preventDefault();
         //get the value of each input 
-        const { league_name, website, location, price } = event.target; 
+        const { league_name, latitude, longitude, website, location, price } = event.target; 
+        console.log("location", location);
         const newLeague = {
-            league_name: league_name.value, 
+            league_name: league_name.value,
+            latitude: latitude.value, 
+            longitude: longitude.value,  
             website: website.value, 
             location: location.value, 
             price: price.value, 
         }
         this.setState({ error: null })
-        fetch(``, {
+        fetch(`${config.API_ENDPOINT}/api/leagues`, {
             method: 'POST',
             body:  JSON.stringify(newLeague),
             headers: {
@@ -40,11 +44,13 @@ class LeagueForm extends Component {
         })
         .then(data => {
             league_name.value = ''
+            latitude.value = ''
+            longitude.value = ''
             website.value = ''
             location.value = ''
             price.value = ''
             this.context.addLeague(data)
-            this.props.history('/dashboard')
+            this.props.history.push('/dashboard')
         })
         .catch(error => {
             this.setState({ error })
@@ -96,8 +102,8 @@ class LeagueForm extends Component {
                             <label htmlFor='latitude'>Latitude:</label>
                             <input 
                             id='latitude'
-                            type='text'
-                            name='location'
+                            type='number'
+                            name='latitude'
                             required
                             onChange={this.handleChange}
                             />
@@ -116,6 +122,14 @@ class LeagueForm extends Component {
                             id='website'
                             type='text'
                             name='website'
+                            onChange={this.handleChange}
+                            />
+
+                            <label htmlFor='location'>Location:</label>
+                            <input 
+                            id='location'
+                            type='text'
+                            name='location'
                             onChange={this.handleChange}
                             />
 

@@ -14,7 +14,7 @@ class LeagueItem extends Component {
                    Location: {location}
                 </div>
                 <div className='ls-league__price'>
-                    Price: {price}
+                    Price: ${price}
                 </div>
             </div>
         )
