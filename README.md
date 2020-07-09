@@ -19,8 +19,8 @@ Price: 1250
 ```
 ```
 League Name: Toronto Blue Jays
-Latitude: 43
-Longitude: 40
+Latitude: 40
+Longitude: 43
 Website: https://www.mlb.com/bluejays
 Location: Toronto, Canada
 Price: 2500
@@ -35,13 +35,25 @@ Price: 1500
 ```
 
 ### Finding a league to sponsor 
-- For the data that is in the database I would suggest putting your search like so: 
-```
-1. Enter a total budget: this can range from 400-10000 dollars
-2. Enter latitude: in progress...
-3. Enter longitude: in progress...
-4. Enter a radius: Only option for now is 5mi
 
+#### Here are some sponsorship criteria inputs you can use: 
+```
+Total Budget: 3500
+Latitude: 19
+Longitude: 21
+Radius: will always be 5mi for now
+```
+```
+Total Budget: 700
+Latitude: 19
+Longitude: 21
+Radius: will always be 5mi for now
+```
+```
+Total Budget: 1500
+Latitude: 27
+Longitude: 30
+Radius: will always be 5mi for now
 ```
 
 ## Screenshots 📸
