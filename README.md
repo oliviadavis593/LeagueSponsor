@@ -8,6 +8,32 @@ Two options are possible in the application: Create a league or find leagues to 
 ### Creating a league 
 - All you have to do is put in the criteria it asks of you. 
 
+#### Here are some leagues you can add to the form:
+```
+League Name: Detroit Tigers 
+Latitude: 17
+Longitude: 20
+Website: https://www.mlb.com/tigers
+Location: Detroit, Michigan
+Price: 1250
+```
+```
+League Name: Toronto Blue Jays
+Latitude: 43
+Longitude: 40
+Website: https://www.mlb.com/bluejays
+Location: Toronto, Canada
+Price: 2500
+```
+```
+League Name: Houston Astros 
+Latitude: 13
+Longitude: 15
+Website: https://www.mlb.com/astros
+Location: Houston, Texas
+Price: 1500
+```
+
 ### Finding a league to sponsor 
 - For the data that is in the database I would suggest putting your search like so: 
 ```
