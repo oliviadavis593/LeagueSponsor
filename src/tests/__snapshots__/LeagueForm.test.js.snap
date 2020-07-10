@@ -48,10 +48,10 @@ exports[`LeagueForm Component renders the UI as expected 1`] = `
         </label>
         <input
           id="latitude"
-          name="location"
+          name="latitude"
           onChange={[Function]}
           required={true}
-          type="text"
+          type="number"
         />
         <label
           htmlFor="longitude"
@@ -73,6 +73,17 @@ exports[`LeagueForm Component renders the UI as expected 1`] = `
         <input
           id="website"
           name="website"
+          onChange={[Function]}
+          type="text"
+        />
+        <label
+          htmlFor="location"
+        >
+          Location:
+        </label>
+        <input
+          id="location"
+          name="location"
           onChange={[Function]}
           type="text"
         />

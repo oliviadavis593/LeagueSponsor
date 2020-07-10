@@ -19,7 +19,7 @@ exports[`LeagueItem Component renders the UI as expected 1`] = `
   <div
     className="ls-league__price"
   >
-    Price: 
+    Price: $
   </div>
 </div>
 `;

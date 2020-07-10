@@ -16,6 +16,7 @@ exports[`SponsorPage Component renders the UI as expected 1`] = `
   <main>
     <form
       className="ls-sponsor__form"
+      onSubmit={[Function]}
     >
       <fieldset>
         <legend>
@@ -31,7 +32,8 @@ exports[`SponsorPage Component renders the UI as expected 1`] = `
         <input
           id="budget"
           name="budget"
-          type="text"
+          placeholder="1750"
+          type="number"
         />
         <label
           htmlFor="latitude"
@@ -41,6 +43,7 @@ exports[`SponsorPage Component renders the UI as expected 1`] = `
         <input
           id="latitude"
           name="latitude"
+          placeholder="17"
           type="number"
         />
         <label
@@ -51,6 +54,7 @@ exports[`SponsorPage Component renders the UI as expected 1`] = `
         <input
           id="longitude"
           name="longitude"
+          placeholder="20"
           type="number"
         />
         <label
@@ -62,11 +66,6 @@ exports[`SponsorPage Component renders the UI as expected 1`] = `
           id="radius"
           name="radius"
         >
-          <option
-            value="Any"
-          >
-            Any
-          </option>
           <option
             value="5"
           >
