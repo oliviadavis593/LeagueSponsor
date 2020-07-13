@@ -31,7 +31,6 @@ class SponsorPage extends Component {
     handleSumbit = event => {
         event.preventDefault();
         const parameters = { radius: 5 };
-        console.log("parameters", parameters)
 
         Object.values(event.target.elements).forEach(input => {
             if (input.tagName === 'INPUT') {
