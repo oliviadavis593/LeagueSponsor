@@ -44,7 +44,6 @@ class SponsorPage extends Component {
 
     componentDidUpdate(prevProps,prevState) {
         if (this.hasRequiredParams()) {
-            console.log("prevState", prevState)
             if (
                 prevState.parameters.latitude !== this.state.parameters.latitude ||
                 prevState.parameters.longitude !== this.state.parameters.longitude ||
